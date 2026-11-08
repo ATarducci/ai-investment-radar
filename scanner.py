@@ -45,6 +45,8 @@ def analyze(symbol):
     close=[float(r[4]) for r in rows]
     volumes=[float(r[5]) for r in rows]
     price=close[-1]
+    true_ranges=[max(float(rows[i][2])-float(rows[i][3]),abs(float(rows[i][2])-close[i-1]),abs(float(rows[i][3])-close[i-1])) for i in range(len(rows)-14,len(rows))]
+    atr14_pct=100*sum(true_ranges)/14/price
     avg20=ema(close[-80:],20)
     avg50=ema(close[-120:],50)
     rsi14=rsi(close)
@@ -56,7 +58,7 @@ def analyze(symbol):
     volume_ratio=volumes[-1]/avg_volume if avg_volume else None
     score=50+(12 if price>avg20 else -12)+(10 if avg20>avg50 else -10)+(8 if 45<=rsi14<=65 else -8 if rsi14>75 or rsi14<25 else 0)+(6 if change24>0 else -6)
     score=max(0,min(100,score))
-    return {'symbol':symbol,'price':round(price,7),'change24h_pct':round(change24,2),'change7d_pct':round(change7,2),'rsi14':round(rsi14,1),'ema20':round(avg20,7),'ema50':round(avg50,7),'volatility24h_pct':round(vol,2),'volume_ratio':round(volume_ratio,2) if volume_ratio is not None else None,'score':score,'status':'Osservare' if score>=65 else 'Neutrale' if score>=40 else 'Debole','last_candle_utc':datetime.fromtimestamp(int(rows[-1][6])/1000,timezone.utc).isoformat(),'source':source,'analysis':'Score euristico non validato; non è una probabilità di profitto.'}
+    return {'symbol':symbol,'price':round(price,7),'change24h_pct':round(change24,2),'change7d_pct':round(change7,2),'rsi14':round(rsi14,1),'ema20':round(avg20,7),'ema50':round(avg50,7),'volatility24h_pct':round(vol,2),'atr14_pct':round(atr14_pct,3),'volume_ratio':round(volume_ratio,2) if volume_ratio is not None else None,'score':score,'status':'Osservare' if score>=65 else 'Neutrale' if score>=40 else 'Debole','last_candle_utc':datetime.fromtimestamp(int(rows[-1][6])/1000,timezone.utc).isoformat(),'source':source,'analysis':'Score euristico non validato; non è una probabilità di profitto.'}
 
 def main():
     results=[]
