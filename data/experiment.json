@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "started_at_utc": "2026-11-08T16:22:58.043370+00:00",
+  "duration_days": 30,
+  "assumed_capital_usdt_per_position": 100.0,
+  "assumed_roundtrip_cost_pct": 1.0,
+  "positions": [
+    {
+      "id": "BNBUSDT:2026-11-08T16:22:58.043370+00:00",
+      "symbol": "BNBUSDT",
+      "entry_price": 698.69,
+      "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
+      "score_at_entry": 86,
+      "high_price": 698.69,
+      "last_price": 698.69,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "TRXUSDT:2026-11-08T16:22:58.043370+00:00",
+      "symbol": "TRXUSDT",
+      "entry_price": 0.3206,
+      "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
+      "score_at_entry": 86,
+      "high_price": 0.3206,
+      "last_price": 0.3206,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
+    }
+  ],
+  "events": [
+    {
+      "id": "BNBUSDT:2026-11-08T16:22:58.043370+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-08T16:22:58.043370+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nBNBUSDT · score 86/100\nPrezzo osservato: 698.69 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
+    },
+    {
+      "id": "TRXUSDT:2026-11-08T16:22:58.043370+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-08T16:22:58.043370+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nTRXUSDT · score 86/100\nPrezzo osservato: 0.3206 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
+    }
+  ],
+  "last_processed_scan_utc": "2026-11-08T16:22:58.043370+00:00",
+  "last_checked_at_utc": "2026-11-08T16:22:58.934995+00:00"
+}
