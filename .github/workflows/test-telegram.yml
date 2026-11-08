@@ -1,0 +1,34 @@
+name: Test Telegram connection
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send private Telegram test
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          token=os.getenv('TELEGRAM_BOT_TOKEN','').strip()
+          chat=os.getenv('TELEGRAM_CHAT_ID','').strip()
+          if not token or not chat:
+              raise SystemExit('Missing Telegram repository secrets. Configure both values in Settings.')
+          text='AI Investment Radar: collegamento Telegram attivo. Questo e un messaggio di prova, non un segnale di investimento.'
+          body=urllib.parse.urlencode({'chat_id':chat,'text':text}).encode()
+          request=urllib.request.Request('https://api.telegram.org/bot'+token+'/sendMessage',data=body,method='POST')
+          try:
+              with urllib.request.urlopen(request,timeout=20) as response:
+                  result=json.load(response)
+              if not result.get('ok'):
+                  raise SystemExit('Telegram did not confirm delivery')
+              print('Telegram API accepted test message')
+          except Exception:
+              print('Telegram test failed. Check that the bot has been started and that both secrets are correct.')
+              raise SystemExit(1)
+          PY
