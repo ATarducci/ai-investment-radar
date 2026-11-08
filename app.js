@@ -8,7 +8,7 @@ const PLATFORM_INFO={
   'Trade Republic':{url:'https://support.traderepublic.com/it-it/1488-Welche-Crypto-kann-ich-bei-Trade-Republic-handeln',coins:['BTC','ETH','XRP','ADA'],note:'Solo asset citati esplicitamente nella documentazione ufficiale consultata'}
 };
 function $(id){return document.getElementById(id)}
-function money(x){return Number(x).toLocaleString('it-IT',{style:'currency',currency:'EUR',maximumFractionDigits:2})}
+function money(x){return Number(x).toLocaleString('it-IT',{style:'currency',currency:'USD',maximumFractionDigits:2})}
 function num(x,d=2){return Number(x).toLocaleString('it-IT',{maximumFractionDigits:d})}
 function read(key,fallback){try{let x=JSON.parse(localStorage.getItem(key));return x??fallback}catch{return fallback}}
 function write(key,x){localStorage.setItem(key,JSON.stringify(x))}
