@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "strategy": "B - dynamic",
+  "started_at_utc": "2026-11-08T16:41:32.522594+00:00",
+  "duration_days": 30,
+  "start_capital_usdt": 500,
+  "fee_per_side_pct": 0.5,
+  "positions": [],
+  "events": [],
+  "equity_history": [
+    {
+      "time_utc": "2026-11-08T16:41:32.522594+00:00",
+      "equity_usdt": 500,
+      "drawdown_pct": 0.0
+    }
+  ],
+  "last_drawdown_pct": 0.0,
+  "market_filter_ok": false,
+  "drawdown_warning_sent": false,
+  "last_processed_scan_utc": "2026-11-08T16:41:32.522594+00:00",
+  "last_checked_at_utc": "2026-11-08T16:41:32.767278+00:00"
+}
