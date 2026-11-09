@@ -12,8 +12,8 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 698.69,
-      "last_price": 688.17,
-      "last_change_pct": -1.506,
+      "last_price": 690.95,
+      "last_change_pct": -1.108,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -24,8 +24,8 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 0.3206,
-      "last_price": 0.3169,
-      "last_change_pct": -1.154,
+      "last_price": 0.3174,
+      "last_change_pct": -0.998,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -35,9 +35,21 @@
       "entry_price": 8.552,
       "entry_at_utc": "2026-11-09T19:53:19.621203+00:00",
       "score_at_entry": 78,
-      "high_price": 8.563,
-      "last_price": 8.563,
-      "last_change_pct": 0.129,
+      "high_price": 8.648,
+      "last_price": 8.648,
+      "last_change_pct": 1.123,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "ATOMUSDT:2026-11-09T23:27:47.298463+00:00",
+      "symbol": "ATOMUSDT",
+      "entry_price": 1.368,
+      "entry_at_utc": "2026-11-09T23:27:47.298463+00:00",
+      "score_at_entry": 78,
+      "high_price": 1.368,
+      "last_price": 1.368,
+      "last_change_pct": 0,
       "status": "open",
       "notional_usdt": 100.0
     }
@@ -63,8 +75,15 @@
       "time_utc": "2026-11-09T19:53:19.621203+00:00",
       "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nAVAXUSDT · score 78/100\nPrezzo osservato: 8.552 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
       "delivered": true
+    },
+    {
+      "id": "ATOMUSDT:2026-11-09T23:27:47.298463+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-09T23:27:47.298463+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nATOMUSDT · score 78/100\nPrezzo osservato: 1.368 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-09T20:46:36.445751+00:00",
-  "last_checked_at_utc": "2026-11-09T20:46:36.552927+00:00"
+  "last_processed_scan_utc": "2026-11-09T23:27:47.298463+00:00",
+  "last_checked_at_utc": "2026-11-09T23:27:47.910350+00:00"
 }
