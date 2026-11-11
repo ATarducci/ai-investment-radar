@@ -28,8 +28,8 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 0.3206,
-      "last_price": 0.3174,
-      "last_change_pct": -0.998,
+      "last_price": 0.3165,
+      "last_change_pct": -1.279,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -55,9 +55,9 @@
       "entry_price": 1.368,
       "entry_at_utc": "2026-11-09T23:27:47.298463+00:00",
       "score_at_entry": 78,
-      "high_price": 1.411,
-      "last_price": 1.411,
-      "last_change_pct": 3.143,
+      "high_price": 1.429,
+      "last_price": 1.429,
+      "last_change_pct": 4.459,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -76,6 +76,30 @@
       "closed_at_utc": "2026-11-11T01:56:56.048607+00:00",
       "exit_reason": "Obiettivo di profitto +5%",
       "net_return_pct": 5.195
+    },
+    {
+      "id": "NEARUSDT:2026-11-11T17:54:42.813101+00:00",
+      "symbol": "NEARUSDT",
+      "entry_price": 3.787,
+      "entry_at_utc": "2026-11-11T17:54:42.813101+00:00",
+      "score_at_entry": 86,
+      "high_price": 3.787,
+      "last_price": 3.787,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "FILUSDT:2026-11-11T17:54:42.813101+00:00",
+      "symbol": "FILUSDT",
+      "entry_price": 0.7751,
+      "entry_at_utc": "2026-11-11T17:54:42.813101+00:00",
+      "score_at_entry": 78,
+      "high_price": 0.7751,
+      "last_price": 0.7751,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
     }
   ],
   "events": [
@@ -134,8 +158,22 @@
       "time_utc": "2026-11-11T01:56:56.048607+00:00",
       "text": "🧪 RADAR — CHIUSURA VIRTUALE\nICPUSDT · Obiettivo di profitto +5%\nRendimento virtuale netto stimato: +5.20%\nPrezzo: 2.565 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
       "delivered": true
+    },
+    {
+      "id": "NEARUSDT:2026-11-11T17:54:42.813101+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-11T17:54:42.813101+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nNEARUSDT · score 86/100\nPrezzo osservato: 3.787 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
+    },
+    {
+      "id": "FILUSDT:2026-11-11T17:54:42.813101+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-11T17:54:42.813101+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nFILUSDT · score 78/100\nPrezzo osservato: 0.7751 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-11T09:28:57.692598+00:00",
-  "last_checked_at_utc": "2026-11-11T09:28:57.799873+00:00"
+  "last_processed_scan_utc": "2026-11-11T17:54:42.813101+00:00",
+  "last_checked_at_utc": "2026-11-11T17:54:44.712563+00:00"
 }

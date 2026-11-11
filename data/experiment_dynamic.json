@@ -67,11 +67,16 @@
       "time_utc": "2026-11-11T09:28:57.692598+00:00",
       "equity_usdt": 500,
       "drawdown_pct": 0.0
+    },
+    {
+      "time_utc": "2026-11-11T17:54:42.813101+00:00",
+      "equity_usdt": 500,
+      "drawdown_pct": 0.0
     }
   ],
   "last_drawdown_pct": 0.0,
   "market_filter_ok": false,
   "drawdown_warning_sent": false,
-  "last_processed_scan_utc": "2026-11-11T09:28:57.692598+00:00",
-  "last_checked_at_utc": "2026-11-11T09:28:57.853166+00:00"
+  "last_processed_scan_utc": "2026-11-11T17:54:42.813101+00:00",
+  "last_checked_at_utc": "2026-11-11T17:54:45.893196+00:00"
 }
