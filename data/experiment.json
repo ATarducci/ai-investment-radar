@@ -28,8 +28,8 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 0.3206,
-      "last_price": 0.318,
-      "last_change_pct": -0.811,
+      "last_price": 0.3174,
+      "last_change_pct": -0.998,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -55,9 +55,9 @@
       "entry_price": 1.368,
       "entry_at_utc": "2026-11-09T23:27:47.298463+00:00",
       "score_at_entry": 78,
-      "high_price": 1.398,
-      "last_price": 1.398,
-      "last_change_pct": 2.193,
+      "high_price": 1.411,
+      "last_price": 1.411,
+      "last_change_pct": 3.143,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -136,6 +136,6 @@
       "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-11T01:56:56.048607+00:00",
-  "last_checked_at_utc": "2026-11-11T01:56:56.178847+00:00"
+  "last_processed_scan_utc": "2026-11-11T09:28:57.692598+00:00",
+  "last_checked_at_utc": "2026-11-11T09:28:57.799873+00:00"
 }
