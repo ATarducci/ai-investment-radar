@@ -28,8 +28,8 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 0.3206,
-      "last_price": 0.3165,
-      "last_change_pct": -1.279,
+      "last_price": 0.317,
+      "last_change_pct": -1.123,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -56,8 +56,8 @@
       "entry_at_utc": "2026-11-09T23:27:47.298463+00:00",
       "score_at_entry": 78,
       "high_price": 1.429,
-      "last_price": 1.429,
-      "last_change_pct": 4.459,
+      "last_price": 1.392,
+      "last_change_pct": 1.754,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -84,10 +84,14 @@
       "entry_at_utc": "2026-11-11T17:54:42.813101+00:00",
       "score_at_entry": 86,
       "high_price": 3.787,
-      "last_price": 3.787,
-      "last_change_pct": 0,
-      "status": "open",
-      "notional_usdt": 100.0
+      "last_price": 3.586,
+      "last_change_pct": -5.308,
+      "status": "closed",
+      "notional_usdt": 100.0,
+      "exit_price": 3.586,
+      "closed_at_utc": "2026-11-12T00:46:10.277802+00:00",
+      "exit_reason": "Soglia di perdita -3%",
+      "net_return_pct": -6.252
     },
     {
       "id": "FILUSDT:2026-11-11T17:54:42.813101+00:00",
@@ -96,8 +100,8 @@
       "entry_at_utc": "2026-11-11T17:54:42.813101+00:00",
       "score_at_entry": 78,
       "high_price": 0.7751,
-      "last_price": 0.7751,
-      "last_change_pct": 0,
+      "last_price": 0.7534,
+      "last_change_pct": -2.8,
       "status": "open",
       "notional_usdt": 100.0
     }
@@ -172,8 +176,15 @@
       "time_utc": "2026-11-11T17:54:42.813101+00:00",
       "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nFILUSDT · score 78/100\nPrezzo osservato: 0.7751 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
       "delivered": true
+    },
+    {
+      "id": "NEARUSDT:2026-11-11T17:54:42.813101+00:00:close",
+      "kind": "exit",
+      "time_utc": "2026-11-12T00:46:10.277802+00:00",
+      "text": "🧪 RADAR — CHIUSURA VIRTUALE\nNEARUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -6.25%\nPrezzo: 3.586 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-11T17:54:42.813101+00:00",
-  "last_checked_at_utc": "2026-11-11T17:54:44.712563+00:00"
+  "last_processed_scan_utc": "2026-11-12T00:46:10.277802+00:00",
+  "last_checked_at_utc": "2026-11-12T00:46:10.407331+00:00"
 }
