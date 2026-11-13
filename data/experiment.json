@@ -28,10 +28,14 @@
       "entry_at_utc": "2026-11-08T16:22:58.043370+00:00",
       "score_at_entry": 86,
       "high_price": 0.3206,
-      "last_price": 0.3155,
-      "last_change_pct": -1.591,
-      "status": "open",
-      "notional_usdt": 100.0
+      "last_price": 0.3109,
+      "last_change_pct": -3.026,
+      "status": "closed",
+      "notional_usdt": 100.0,
+      "exit_price": 0.3109,
+      "closed_at_utc": "2026-11-13T09:33:48.737161+00:00",
+      "exit_reason": "Soglia di perdita -3%",
+      "net_return_pct": -3.993
     },
     {
       "id": "AVAXUSDT:2026-11-09T19:53:19.621203+00:00",
@@ -205,8 +209,15 @@
       "time_utc": "2026-11-13T01:06:15.522914+00:00",
       "text": "🧪 RADAR — CHIUSURA VIRTUALE\nATOMUSDT · Obiettivo di profitto +5%\nRendimento virtuale netto stimato: +4.00%\nPrezzo: 1.437 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
       "delivered": true
+    },
+    {
+      "id": "TRXUSDT:2026-11-08T16:22:58.043370+00:00:close",
+      "kind": "exit",
+      "time_utc": "2026-11-13T09:33:48.737161+00:00",
+      "text": "🧪 RADAR — CHIUSURA VIRTUALE\nTRXUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -3.99%\nPrezzo: 0.3109 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-13T01:06:15.522914+00:00",
-  "last_checked_at_utc": "2026-11-13T01:06:15.694982+00:00"
+  "last_processed_scan_utc": "2026-11-13T09:33:48.737161+00:00",
+  "last_checked_at_utc": "2026-11-13T09:33:49.569312+00:00"
 }
