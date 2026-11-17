@@ -124,8 +124,8 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 86,
       "high_price": 212.0,
-      "last_price": 212.0,
-      "last_change_pct": 0,
+      "last_price": 209.6,
+      "last_change_pct": -1.132,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -136,7 +136,19 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 78,
       "high_price": 73.67,
-      "last_price": 73.67,
+      "last_price": 73.51,
+      "last_change_pct": -0.217,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "XRPUSDT:2026-11-17T22:26:08.008253+00:00",
+      "symbol": "XRPUSDT",
+      "entry_price": 0.9703,
+      "entry_at_utc": "2026-11-17T22:26:08.008253+00:00",
+      "score_at_entry": 86,
+      "high_price": 0.9703,
+      "last_price": 0.9703,
       "last_change_pct": 0,
       "status": "open",
       "notional_usdt": 100.0
@@ -254,8 +266,15 @@
       "time_utc": "2026-11-17T13:29:22.193059+00:00",
       "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nSOLUSDT · score 78/100\nPrezzo osservato: 73.67 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
       "delivered": true
+    },
+    {
+      "id": "XRPUSDT:2026-11-17T22:26:08.008253+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-17T22:26:08.008253+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nXRPUSDT · score 86/100\nPrezzo osservato: 0.9703 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-17T13:29:22.193059+00:00",
-  "last_checked_at_utc": "2026-11-17T13:29:23.778271+00:00"
+  "last_processed_scan_utc": "2026-11-17T22:26:08.008253+00:00",
+  "last_checked_at_utc": "2026-11-17T22:26:09.139361+00:00"
 }
