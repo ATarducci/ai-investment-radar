@@ -1,6 +1,9 @@
 {
   "active": [
-    "ATOMUSDT"
+    "ATOMUSDT",
+    "BCHUSDT",
+    "NEARUSDT",
+    "SOLUSDT"
   ],
-  "last_scan_utc": "2026-11-17T02:57:02.584838+00:00"
+  "last_scan_utc": "2026-11-17T13:29:22.193059+00:00"
 }

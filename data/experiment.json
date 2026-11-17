@@ -116,6 +116,30 @@
       "closed_at_utc": "2026-11-12T09:52:08.276665+00:00",
       "exit_reason": "Soglia di perdita -3%",
       "net_return_pct": -4.484
+    },
+    {
+      "id": "BCHUSDT:2026-11-17T13:29:22.193059+00:00",
+      "symbol": "BCHUSDT",
+      "entry_price": 212.0,
+      "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
+      "score_at_entry": 86,
+      "high_price": 212.0,
+      "last_price": 212.0,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "SOLUSDT:2026-11-17T13:29:22.193059+00:00",
+      "symbol": "SOLUSDT",
+      "entry_price": 73.67,
+      "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
+      "score_at_entry": 78,
+      "high_price": 73.67,
+      "last_price": 73.67,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
     }
   ],
   "events": [
@@ -216,8 +240,22 @@
       "time_utc": "2026-11-13T09:33:48.737161+00:00",
       "text": "🧪 RADAR — CHIUSURA VIRTUALE\nTRXUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -3.99%\nPrezzo: 0.3109 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
       "delivered": true
+    },
+    {
+      "id": "BCHUSDT:2026-11-17T13:29:22.193059+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-17T13:29:22.193059+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nBCHUSDT · score 86/100\nPrezzo osservato: 212.0 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
+    },
+    {
+      "id": "SOLUSDT:2026-11-17T13:29:22.193059+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-17T13:29:22.193059+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nSOLUSDT · score 78/100\nPrezzo osservato: 73.67 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-17T02:57:02.584838+00:00",
-  "last_checked_at_utc": "2026-11-17T02:57:03.303650+00:00"
+  "last_processed_scan_utc": "2026-11-17T13:29:22.193059+00:00",
+  "last_checked_at_utc": "2026-11-17T13:29:23.778271+00:00"
 }
