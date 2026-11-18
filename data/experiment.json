@@ -124,8 +124,8 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 86,
       "high_price": 212.0,
-      "last_price": 209.6,
-      "last_change_pct": -1.132,
+      "last_price": 208.1,
+      "last_change_pct": -1.84,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -135,9 +135,9 @@
       "entry_price": 73.67,
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 78,
-      "high_price": 73.67,
-      "last_price": 73.51,
-      "last_change_pct": -0.217,
+      "high_price": 74.67,
+      "last_price": 74.67,
+      "last_change_pct": 1.357,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -147,8 +147,32 @@
       "entry_price": 0.9703,
       "entry_at_utc": "2026-11-17T22:26:08.008253+00:00",
       "score_at_entry": 86,
-      "high_price": 0.9703,
-      "last_price": 0.9703,
+      "high_price": 0.9859,
+      "last_price": 0.9859,
+      "last_change_pct": 1.608,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "DOGEUSDT:2026-11-18T07:31:35.260237+00:00",
+      "symbol": "DOGEUSDT",
+      "entry_price": 0.05935,
+      "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
+      "score_at_entry": 86,
+      "high_price": 0.05935,
+      "last_price": 0.05935,
+      "last_change_pct": 0,
+      "status": "open",
+      "notional_usdt": 100.0
+    },
+    {
+      "id": "ETCUSDT:2026-11-18T07:31:35.260237+00:00",
+      "symbol": "ETCUSDT",
+      "entry_price": 6.0,
+      "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
+      "score_at_entry": 78,
+      "high_price": 6.0,
+      "last_price": 6.0,
       "last_change_pct": 0,
       "status": "open",
       "notional_usdt": 100.0
@@ -273,8 +297,22 @@
       "time_utc": "2026-11-17T22:26:08.008253+00:00",
       "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nXRPUSDT · score 86/100\nPrezzo osservato: 0.9703 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
       "delivered": true
+    },
+    {
+      "id": "DOGEUSDT:2026-11-18T07:31:35.260237+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-18T07:31:35.260237+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nDOGEUSDT · score 86/100\nPrezzo osservato: 0.05935 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
+    },
+    {
+      "id": "ETCUSDT:2026-11-18T07:31:35.260237+00:00:open",
+      "kind": "entry",
+      "time_utc": "2026-11-18T07:31:35.260237+00:00",
+      "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nETCUSDT · score 78/100\nPrezzo osservato: 6.0 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-17T22:26:08.008253+00:00",
-  "last_checked_at_utc": "2026-11-17T22:26:09.139361+00:00"
+  "last_processed_scan_utc": "2026-11-18T07:31:35.260237+00:00",
+  "last_checked_at_utc": "2026-11-18T07:31:36.106530+00:00"
 }
