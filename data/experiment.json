@@ -124,10 +124,14 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 86,
       "high_price": 212.0,
-      "last_price": 208.1,
-      "last_change_pct": -1.84,
-      "status": "open",
-      "notional_usdt": 100.0
+      "last_price": 205.6,
+      "last_change_pct": -3.019,
+      "status": "closed",
+      "notional_usdt": 100.0,
+      "exit_price": 205.6,
+      "closed_at_utc": "2026-11-18T17:16:40.956569+00:00",
+      "exit_reason": "Soglia di perdita -3%",
+      "net_return_pct": -3.986
     },
     {
       "id": "SOLUSDT:2026-11-17T13:29:22.193059+00:00",
@@ -136,8 +140,8 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 78,
       "high_price": 74.67,
-      "last_price": 74.67,
-      "last_change_pct": 1.357,
+      "last_price": 72.84,
+      "last_change_pct": -1.127,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -148,8 +152,8 @@
       "entry_at_utc": "2026-11-17T22:26:08.008253+00:00",
       "score_at_entry": 86,
       "high_price": 0.9859,
-      "last_price": 0.9859,
-      "last_change_pct": 1.608,
+      "last_price": 0.9707,
+      "last_change_pct": 0.041,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -160,8 +164,8 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 86,
       "high_price": 0.05935,
-      "last_price": 0.05935,
-      "last_change_pct": 0,
+      "last_price": 0.05823,
+      "last_change_pct": -1.887,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -172,8 +176,8 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 78,
       "high_price": 6.0,
-      "last_price": 6.0,
-      "last_change_pct": 0,
+      "last_price": 5.86,
+      "last_change_pct": -2.333,
       "status": "open",
       "notional_usdt": 100.0
     }
@@ -311,8 +315,15 @@
       "time_utc": "2026-11-18T07:31:35.260237+00:00",
       "text": "🧪 RADAR — NUOVA POSIZIONE VIRTUALE\nETCUSDT · score 78/100\nPrezzo osservato: 6.0 USDT\nCapitale fittizio: 100 USDT\nObiettivo +5%, soglia -3%, trailing 3%\nNon è un suggerimento personalizzato né un ordine di acquisto.",
       "delivered": true
+    },
+    {
+      "id": "BCHUSDT:2026-11-17T13:29:22.193059+00:00:close",
+      "kind": "exit",
+      "time_utc": "2026-11-18T17:16:40.956569+00:00",
+      "text": "🧪 RADAR — CHIUSURA VIRTUALE\nBCHUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -3.99%\nPrezzo: 205.6 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-18T07:31:35.260237+00:00",
-  "last_checked_at_utc": "2026-11-18T07:31:36.106530+00:00"
+  "last_processed_scan_utc": "2026-11-18T17:16:40.956569+00:00",
+  "last_checked_at_utc": "2026-11-18T17:16:41.169615+00:00"
 }
