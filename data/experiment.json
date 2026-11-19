@@ -140,8 +140,8 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 78,
       "high_price": 74.67,
-      "last_price": 72.84,
-      "last_change_pct": -1.127,
+      "last_price": 73.64,
+      "last_change_pct": -0.041,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -152,8 +152,8 @@
       "entry_at_utc": "2026-11-17T22:26:08.008253+00:00",
       "score_at_entry": 86,
       "high_price": 0.9859,
-      "last_price": 0.9707,
-      "last_change_pct": 0.041,
+      "last_price": 0.9677,
+      "last_change_pct": -0.268,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -164,8 +164,8 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 86,
       "high_price": 0.05935,
-      "last_price": 0.05823,
-      "last_change_pct": -1.887,
+      "last_price": 0.05878,
+      "last_change_pct": -0.96,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -176,8 +176,8 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 78,
       "high_price": 6.0,
-      "last_price": 5.86,
-      "last_change_pct": -2.333,
+      "last_price": 5.93,
+      "last_change_pct": -1.167,
       "status": "open",
       "notional_usdt": 100.0
     }
@@ -324,6 +324,6 @@
       "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-18T17:16:40.956569+00:00",
-  "last_checked_at_utc": "2026-11-18T17:16:41.169615+00:00"
+  "last_processed_scan_utc": "2026-11-19T00:24:43.937620+00:00",
+  "last_checked_at_utc": "2026-11-19T00:24:44.034725+00:00"
 }
