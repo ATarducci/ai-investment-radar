@@ -1,46 +1,11 @@
-name: Public market scanner
+name: Public market scanner (compliance hold)
 on:
-  schedule:
-    - cron: '17 */2 * * *'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
-  scan:
+  hold:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 1
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Scan public data
-        run: python scanner.py
-      - name: Telegram technical-signal alerts
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python telegram_alerts.py
-      - name: Update 30-day virtual experiment and Telegram alerts
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python paper_experiment.py
-      - name: Update independent dynamic Strategy B
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python dynamic_experiment.py
-      - name: Learn from independent shadow experiments
-        if: ${{ always() }}
-        run: python adaptive_learning.py
-      - name: Commit market snapshot
-        if: ${{ always() }}
-        run: |
-          git config user.name "market-radar-bot"
-          git config user.email "market-radar-bot@users.noreply.github.com"
-          git add -A data/
-          if ! git diff --cached --quiet; then
-            git commit -m "Update market indicators"
-            git push
-          fi
+      - run: echo 'Market acquisition and publication suspended pending license and privacy approval. No external data requests.'
