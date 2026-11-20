@@ -31,7 +31,11 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python dynamic_experiment.py
+      - name: Learn from independent shadow experiments
+        if: ${{ always() }}
+        run: python adaptive_learning.py
       - name: Commit market snapshot
+        if: ${{ always() }}
         run: |
           git config user.name "market-radar-bot"
           git config user.email "market-radar-bot@users.noreply.github.com"
