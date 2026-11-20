@@ -58,6 +58,22 @@ def main():
     s['loss_diagnostics']=losses
     s['last_scan']=t
     s['validation_status']='collecting' if now<split+timedelta(days=30) else 'review_required'
-    s['note']='Shadow variants use identical fixed exits, not Strategy B exits. No automatic promotion yet; correlated trades and costs limit inference.'
+    # One preregistered selection using training only, then independent forward validation.
+    if now>=split and 'candidate' not in s:
+        eligible=[k for k in RULES if k!='control' and metrics[k]['train']['n']>=30 and metrics['control']['train']['n']>=30 and metrics[k]['train']['mean_net_pct']>max(0,metrics['control']['train']['mean_net_pct']+.25)]
+        s['candidate']=max(eligible,key=lambda k:metrics[k]['train']['mean_net_pct']) if eligible else None
+    if now>=split+timedelta(days=30) and not s.get('decision_finalized'):
+        k=s.get('candidate')
+        if k:
+            a=metrics['control']['holdout'];b=metrics[k]['holdout']
+            if a['n']>=30 and b['n']>=30 and b['mean_net_pct']>max(0,a['mean_net_pct']+.25):
+                s['active']=k
+                s['reviews'].append({'time':t,'decision':'shadow_reference_updated','variant':k,'reason':'Positive mean and improvement over control in chronological holdout'})
+            else:
+                s['reviews'].append({'time':t,'decision':'retain_control','reason':'Insufficient holdout evidence or improvement'})
+        else:
+            s['reviews'].append({'time':t,'decision':'retain_control','reason':'No qualified training candidate'})
+        s['decision_finalized']=True
+    s['note']='Automatic selection changes research reference only, never A/B trading rules. Identical fixed exits; correlated observations, unequal exposure and execution costs limit inference.'
     OUT.write_text(json.dumps(s,indent=2,ensure_ascii=False)+'\n')
 if __name__=='__main__':main()
