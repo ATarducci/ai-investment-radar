@@ -140,8 +140,8 @@
       "entry_at_utc": "2026-11-17T13:29:22.193059+00:00",
       "score_at_entry": 78,
       "high_price": 74.67,
-      "last_price": 73.58,
-      "last_change_pct": -0.122,
+      "last_price": 72.99,
+      "last_change_pct": -0.923,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -152,8 +152,8 @@
       "entry_at_utc": "2026-11-17T22:26:08.008253+00:00",
       "score_at_entry": 86,
       "high_price": 0.9861,
-      "last_price": 0.9674,
-      "last_change_pct": -0.299,
+      "last_price": 0.9597,
+      "last_change_pct": -1.092,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -164,8 +164,8 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 86,
       "high_price": 0.05948,
-      "last_price": 0.05865,
-      "last_change_pct": -1.179,
+      "last_price": 0.05775,
+      "last_change_pct": -2.696,
       "status": "open",
       "notional_usdt": 100.0
     },
@@ -176,10 +176,14 @@
       "entry_at_utc": "2026-11-18T07:31:35.260237+00:00",
       "score_at_entry": 78,
       "high_price": 6.0,
-      "last_price": 5.82,
-      "last_change_pct": -3.0,
-      "status": "open",
-      "notional_usdt": 100.0
+      "last_price": 5.76,
+      "last_change_pct": -4.0,
+      "status": "closed",
+      "notional_usdt": 100.0,
+      "exit_price": 5.76,
+      "closed_at_utc": "2026-11-20T03:19:28.490688+00:00",
+      "exit_reason": "Soglia di perdita -3%",
+      "net_return_pct": -4.958
     }
   ],
   "events": [
@@ -322,8 +326,15 @@
       "time_utc": "2026-11-18T17:16:40.956569+00:00",
       "text": "🧪 RADAR — CHIUSURA VIRTUALE\nBCHUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -3.99%\nPrezzo: 205.6 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
       "delivered": true
+    },
+    {
+      "id": "ETCUSDT:2026-11-18T07:31:35.260237+00:00:close",
+      "kind": "exit",
+      "time_utc": "2026-11-20T03:19:28.490688+00:00",
+      "text": "🧪 RADAR — CHIUSURA VIRTUALE\nETCUSDT · Soglia di perdita -3%\nRendimento virtuale netto stimato: -4.96%\nPrezzo: 5.76 USDT\nNessun ordine eseguito. Prezzi campionati, non tick-by-tick.",
+      "delivered": true
     }
   ],
-  "last_processed_scan_utc": "2026-11-19T20:39:50.023928+00:00",
-  "last_checked_at_utc": "2026-11-19T20:39:50.191640+00:00"
+  "last_processed_scan_utc": "2026-11-20T03:19:28.490688+00:00",
+  "last_checked_at_utc": "2026-11-20T03:19:28.633331+00:00"
 }
